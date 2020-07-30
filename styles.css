@@ -17,6 +17,9 @@ body {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+  <div class="card-panel">
+    <span class="green-text text-darken-2">This is a card panel with dark green text</span>
+  </div>
 @-webkit-keyframes glow {
   from 
     text-shadow: 0 0 10px , 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
