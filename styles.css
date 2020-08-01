@@ -2,7 +2,7 @@ var calendar = new tui.Calendar(document.getElementById('calendar'), {
     ...
     template: {
         milestone: function(schedule) {
-            return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: ' + schedule.bgColor + '">' + schedule.title + '</span>';
+            return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: green ' + schedule.bgColor + black '">' + schedule.title + black '</span>';
         },
         milestoneTitle: function() {
             return '<span class="tui-full-calendar-left-content">MILESTONE</span>';
